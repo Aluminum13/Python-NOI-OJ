@@ -2,10 +2,6 @@ a, b, c = input().split()
 output_str = "{:>8} {:>8} {:>8}".format(a, b, c)
 print(output_str)
 
-num = input().split()
-for i in num:
-    print(f"{i:>8} ", end="")
-
 """
 另外一种写法是：
 a, b, c = input().split()
