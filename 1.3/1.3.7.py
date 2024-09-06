@@ -1,9 +1,4 @@
-num = input().split()
-x = float(num[0])
-a = float(num[1])
-b = float(num[2])
-c = float(num[3])
-d = float(num[4])
+x, a, b, c, d = map(float, input().split())
 fx = (a * x ** 3) + (b * x ** 2) + (c * x) + d
 print(f"{fx:.7f}")
 
@@ -14,4 +9,8 @@ print(f"{fx:.7f}")
 但是这个东西就像是你草稿上的解题过程。
 你当然可以疯狂跳步骤，但是写的越细越不容易出错，别人越能看懂，回过头来自己也越能看懂。
 总之这是一个要取舍的问题，我觉得大家还是自己在工作中形成最让自己舒服的风格比较好。
+"""
+"""
+仍然是老规矩，C语言出身可能会更熟悉另一种写法
+print("%.7f" % fx)
 """
