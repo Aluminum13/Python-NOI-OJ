@@ -1,1 +1,13 @@
+n = int(input())
 
+while n!=1:
+    if n % 2:
+        print("%d*3+1=%d" % (n, n := n * 3 + 1))
+    else:
+        print("%d/2=%d" % (n, n := n // 2))
+
+print("End")
+
+"""
+又通过海象运算符把格式写得更清爽了。
+"""
